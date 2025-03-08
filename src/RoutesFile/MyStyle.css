@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* Bollywood */
+
+.image_box{
+    border-radius: 20px;
+}
+.image_box:hover{
+    box-shadow: 0px 0px 5px 3px #a5a7ad;
+}
+.item_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 7px;
+    justify-content: center;
+}
+
+
+
+/* DynamicCompo */
+
+.item_box_dynamic{
+    padding: 10px 260px 10px 260px;
+    text-align: center;
+    line-height: 25px;
+}
+.para_item{
+    display: flex;
+    gap: 20px;
+}
+.back_button{
+    background-color: bisque;
+    padding: 3px 20px 3px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

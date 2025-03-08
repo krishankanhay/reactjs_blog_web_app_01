@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#a9d1e0, #9ce1bd, #fdeff2);
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+}
+h1,h2,h3,h5{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    background-color: rgb(144, 115, 181);
+    padding: 12px 0px 12px 0px;
+}
+.link
+{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
